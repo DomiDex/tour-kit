@@ -1,0 +1,16 @@
+name: Test NPM Auth
+
+on:
+  workflow_dispatch: # Manual trigger only
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test NPM Token
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+          npm whoami
+          echo "NPM authentication successful!"

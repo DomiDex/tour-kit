@@ -1,0 +1,33 @@
+{
+  "name": "tour-kit",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Headless onboarding and product tour library for React",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tour-kit/tour-kit.git"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.1",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.8",
+    "turbo": "^2.7.1",
+    "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "overrides": {}
+  }
+}

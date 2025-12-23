@@ -34,3 +34,8 @@ coverage/
 
 # Package tarballs (from npm pack)
 *.tgz
+#tour kit plan
+tour-kit/*
+#claude
+claude/*
+CLAUDE.md

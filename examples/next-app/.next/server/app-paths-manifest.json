@@ -5,6 +5,6 @@
   "/contact/page": "app/contact/page.js",
   "/features/page": "app/features/page.js",
   "/media/page": "app/media/page.js",
-  "/page": "app/page.js",
-  "/pricing/page": "app/pricing/page.js"
+  "/pricing/page": "app/pricing/page.js",
+  "/page": "app/page.js"
 }

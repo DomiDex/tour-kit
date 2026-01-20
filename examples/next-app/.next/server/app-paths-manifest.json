@@ -3,8 +3,8 @@
   "/adoption/page": "app/adoption/page.js",
   "/base-ui/page": "app/base-ui/page.js",
   "/contact/page": "app/contact/page.js",
-  "/features/page": "app/features/page.js",
   "/media/page": "app/media/page.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/page": "app/page.js"
+  "/features/page": "app/features/page.js",
+  "/page": "app/page.js",
+  "/pricing/page": "app/pricing/page.js"
 }

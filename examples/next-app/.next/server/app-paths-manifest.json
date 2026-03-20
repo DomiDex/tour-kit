@@ -1,11 +1,11 @@
 {
-  "/page": "app/page.js",
-  "/branching/page": "app/branching/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/base-ui/page": "app/base-ui/page.js",
   "/adoption/page": "app/adoption/page.js",
-  "/contact/page": "app/contact/page.js",
+  "/base-ui/page": "app/base-ui/page.js",
+  "/branching/page": "app/branching/page.js",
   "/features/page": "app/features/page.js",
+  "/contact/page": "app/contact/page.js",
   "/media/page": "app/media/page.js",
-  "/pricing/page": "app/pricing/page.js"
+  "/pricing/page": "app/pricing/page.js",
+  "/page": "app/page.js"
 }
